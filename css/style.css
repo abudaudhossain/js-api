@@ -5,3 +5,24 @@
     border: 2px solid salmon;
     border-radius: 30px;
 }
+.user-name{
+    background-color:rgb(194, 194, 207);
+    border-radius: 30px;
+    margin: 5px;
+    padding: 10px;
+    width: 25%;
+}
+    .comment-body{
+    background-color:#ededf8;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 15px;
+    width: 75%;
+    border: 2px solid hotpink;
+}
+.comment{
+    padding: 20px;
+    margin: 25px;
+    background-color:lightsalmon;
+    border-radius: 20px;
+}
