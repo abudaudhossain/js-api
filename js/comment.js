@@ -8,7 +8,7 @@ loadComment();
 function displayComment(comments) {
     const commentContainer = document.getElementById('comments');
     let i = 0;
-    for(const comment of comments){
+    for (const comment of comments) {
         const div = document.createElement('div');
         div.classList.add('comment');
         div.innerHTML = `

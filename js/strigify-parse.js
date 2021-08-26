@@ -1,7 +1,7 @@
-const myStore ={
+const myStore = {
     name: "SD store",
-    products: ['modile','loptop', 'smart phone','Computer', 'taplet'],
-    owner:{
+    products: ['modile', 'loptop', 'smart phone', 'Computer', 'taplet'],
+    owner: {
         name: "Abu Daud",
         prophesion: "Web deploloper"
     },

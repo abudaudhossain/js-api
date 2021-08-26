@@ -4,10 +4,10 @@ function loadPost() {
         .then(data => displayPost(data));
 }
 loadPost();
-function displayPost(posts){
+function displayPost(posts) {
     const postContainer = document.getElementById('posts');
 
-    for (const post of posts){
+    for (const post of posts) {
         const div = document.createElement('div');
         div.classList.add('post');
         div.innerHTML = `
